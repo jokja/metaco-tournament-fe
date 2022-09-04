@@ -1,0 +1,42 @@
+.rounded-middle {
+  border-radius: 12px !important;
+}
+.active-period, .active-tournament {
+  border-color: #6486b5a1 !important;
+  border-width: 2px !important;
+}
+
+.leaderboard-card {
+  .header-card {
+    height: 66px;
+    .logo {
+      height: 66px;
+      width: 66px;
+      background: #6486b5a1;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+  }
+  .header-table {
+    width: 100%;
+    border-spacing: 0 6px;
+    border-collapse: separate;
+    td:first-child {
+      border-radius: 12px 0 0 12px;
+      text-align: center;
+    }
+    td {
+      // background: rgba(110, 110, 110, 0.502);
+      background: #6486b5a1;
+      padding: 18px;
+      font-size: 14px;
+    }
+    td:last-child {
+      border-radius: 0 12px 12px 0;
+      text-align: center;
+    }
+    th {
+      padding: 18px;
+    }
+  }
+}
