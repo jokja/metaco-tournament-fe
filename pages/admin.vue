@@ -172,7 +172,6 @@ export default {
         this.items = data.data
       }
       this.loading = false
-      console.log('get tournament result - ', data)
     },
     doSubmit() {
       if (this.$refs.form.validate()) {
@@ -191,7 +190,6 @@ export default {
           config.url = `tournament-result/${this.detailItem.id}`
         }
         this.$axios(config).then(({ data }) => {
-          console.log('post tournament result - ', data)
           this.$toast.success(data.message)
           this.fetchData()
           this.closeDialog()
