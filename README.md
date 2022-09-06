@@ -4,7 +4,7 @@
 ###### 1. Install dependencies
 ```bash
 # run command inside application folder
-npm install
+yarn install
 ```
 ###### 2. Setting API Url
 - create file `.env` or copy from `.env.example` file
