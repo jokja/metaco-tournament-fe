@@ -96,4 +96,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  server: {
+    port: process.env.PORT || 3000
+  }
 }
